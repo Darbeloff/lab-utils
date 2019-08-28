@@ -182,6 +182,21 @@
 	        "image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/03/Headshot_edited_small_square.jpg"
 	    },
 	    {
+		"name":"Cormac O'Neill",
+		"title":"M.S. Student",
+		"degrees":[
+			{
+				"degree":"B.S.",
+				"subject":"Mechanical Engineering",
+				"institution":"Caltech",
+				"year":2019
+			}
+		],
+		"research":"Manufacturig Robotics for Heavy Industries",
+		"alias":"croneill",
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/08/Lab_pic_1.jpg"
+	    },
+	    {
 	        "name":"Emily Kamienski",
 	        "title":"M.S. Student",
 	        "degrees":[

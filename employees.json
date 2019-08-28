@@ -278,14 +278,40 @@
 	"alumni": [
 		{
 			"name":"Yuta Kamoshita",
-			"degrees": "B.S. in Mechanical Engineering, Tokyo Institute of Technology (2006)\nM.S. in Mechanical Engineering, Tokyo Institute of Technology (2008)",
+			"degrees":[
+				{
+					"degree":"B.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"Tokyo Institute of Technology",
+					"year":2006
+				},
+				{
+					"degree":"M.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"Tokyo Institute of Technology",
+					"year":2008
+				}
+			],
 			"research":"Design and control of autonomous mining equipment",
 			"alias":"yutak",
 			"image":"http://darbeloff-lab.scripts.mit.edu/darbeloff-lab/wp-content/uploads/2015/01/IMG_20170214_130442-300x300.jpg"
 		},
 		{
 			"name":"Daniel Kurek",
-			"degrees": "B.S. in Mechanical Engineering, UCLA, (2015)\nM.S. in Mechanical Engineering, MIT (2016)",
+			"degrees":[
+				{
+					"degree":"B.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"UCLA",
+					"year":2015
+				},
+				{
+					"degree":"M.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2016
+				}
+			],
 			"research":"Design and control of wearable robots focusing on enhancing and supporting people in manufacturing settings",
 			"alias":"dkurek",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/IMG_1573-e1559323241728.jpg"
@@ -299,62 +325,209 @@
 		},
 		{
 			"name":"Faye Wu",
-			"degrees": "B.S. in Mechanical Engineering, MIT (2009)\nM.S. in Mechanical Engineering, MIT (2012)\nPhD in Mechanical Engineering, MIT (2017)",
+			"degrees":[
+				{
+					"degree":"B.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2009
+				},
+				{
+					"degree":"M.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2012
+				},
+				{
+					"degree":"Ph.D.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2017
+				}
+			],
 			"research":"Design and control of wearable robots for enhancing human capabilities",
 			"alias":"yfwu",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/New-Image2-e1559579330576.jpg"
 		},
 		{
-			"name":"MichaÃ«lle N Mayalu",
-			"degrees": "B.S. in Mechanical Engineering, MIT (2010)\nM.S. in Mechanical Engineering, MIT (2012)\nPhD in Mechanical Engineering, MIT (2017)",
+			"name":"Michaëlle N Mayalu",
+			"degrees":[
+				{
+					"degree":"B.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2010
+				},
+				{
+					"degree":"M.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2012
+				},
+				{
+					"degree":"Ph.D.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2017
+				}
+			],
 			"research":"Control Theoretic Approaches to Modeling and Simulation of Bi0molecular and Biophysical Mechanisms",
 			"alias":"mmayalu",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/2015-02-09-13.03.30-e1559323461253.png"
 		},
 		{
 			"name":"Sampriti Bhattacharyya",
-			"degrees": "B.Tech in Electrical Engineering from St. Thomas College of Engineering -Kolkata, India (2009)\nMS in Aerospace Engineering at The Ohio State University (2012)\nPhD in Mechanical Engineering, MIT (2017)",
+			"degrees":[
+				{
+					"degree":"B.Tech.",
+					"subject":"Electrical Engineering",
+					"institution":"St. Thomas College of Engineering -Kolkata, India",
+					"year":2009
+				},
+				{
+					"degree":"M.S.",
+					"subject":"Aerospace Engineering",
+					"institution":"The Ohio State University",
+					"year":2012
+				},
+				{
+					"degree":"Ph.D.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2017
+				}
+			],
 			"research":"Motion of underwater vehicles on submerged surfaces (Ground Effect Hydrodynamics)",
 			"alias":"sampriti",
 			"image":"http://darbeloff-lab.scripts.mit.edu/darbeloff-lab/wp-content/uploads/2015/01/headshotshare-150x150.jpg"
 		},
 		{
 			"name":"Alexandre Girard",
-			"degrees": "B.Ing. in Mechanical Engineering, UniversitÃ© de Sherbrooke (2010)\nM.Sc.A. in Mechanical Engineering, UniversitÃ© de Sherbrooke (2013)\nPhD in Mechanical Engineering, MIT (2017)",
+			"degrees":[
+				{
+					"degree":"B.Ing.",
+					"subject":"Mechanical Engineering",
+					"institution":"Université de Sherbrooke",
+					"year":2010
+				},
+				{
+					"degree":"M.Sc.A.",
+					"subject":"Mechanical Engineering",
+					"institution":"Université de Sherbrooke",
+					"year":2013
+				},
+				{
+					"degree":"Ph.D.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2017
+				}
+			],
 			"research":"Actuator technologies, robotic systems, control and planning algorithms, automation of manufacturing operations for the aerospace industry",
 			"image":"http://darbeloff-lab.scripts.mit.edu/darbeloff-lab/wp-content/uploads/2015/01/alex-300x300.jpg"
 		},
 		{
-			"name":"ZoÃ« Lemon",
-			"degrees": "M.S. in Mechanical Engineering, MIT (2019)\nB.S. in Physics, University of Missouri-Kansas City (2017)",
+			"name":"Zoë Lemon",
+			"degrees":[
+				{
+					"degree":"M.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2019
+				},
+				{
+					"degree":"B.S.",
+					"subject":"Physics",
+					"institution":"University of Missouri-Kansas City",
+					"year":2017
+				}
+			],
 			"research":"Extra Robotic Fingers",
 			"alias":"lemonz",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/zoe-e1559321108404.jpg"
 		},
 		{
 			"name":"Abbas Shikari",
-			"degrees": "M.S. in Mechanical Engineering from MIT (2018)\nM.S. in Chemical Engineering from UC Berkeley (2015)\nB.S. in Chemical Engineering from University of Rochester (2014)",
+			"degrees":[
+				{
+					"degree":"M.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2018
+				},
+				{
+					"degree":"M.S.",
+					"subject":"Chemical Engineering",
+					"institution":"UC Berkeley",
+					"year":2015
+				},
+				{
+					"degree":"B.S.",
+					"subject":"Chemical Engineering",
+					"institution":"University of Rochester",
+					"year":2014
+				}
+			],
 			"research":"Stacking Parallel Robots for Confined Space Inspection",
 			"alias":"ashikari",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/abbas-e1559321003732.jpg"
 		},
 		{
 			"name":"Haruhiko Eto",
-			"degrees": "B.S. in Physics, Kyushu University (2009); M.S. in Physics, Kyushu University (2012)",
+			"degrees":[
+				{
+					"degree":"M.S.",
+					"subject":"Physics",
+					"institution":"Kyushu University",
+					"year":2012
+				},
+				{
+					"degree":"B.S.",
+					"subject":"Physics",
+					"institution":"Kyushu University",
+					"year":2009
+				}
+			],
 			"research":"Design and control of cooperative task assisting equipment for enhancing factory workerâ€™s capabilities",
 			"alias":"etoh",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/01/File-Jan-31-1-10-48-PM-e1559579165409.jpeg"
 		},
 		{
 			"name":"Tongxi Yan",
-			"degrees": "B.S. in Mechanical Engineering, University of Illinois at Urbana-Champaign (2017)\nM.S. in Mechanical Engineering, MIT (2019)",
+			"degrees":[
+				{
+					"degree":"M.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2019
+				},
+				{
+					"degree":"B.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"University of Illinois at Urbana-Champaign",
+					"year":2017
+				}
+			],
 			"research":"Design of an expandable robot inspired by plant growth",
 			"alias":"tyan",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/tongxi-e1559579242181.jpg"
 		},
 		{
 			"name":"Katie Hahm",
-			"degrees": "B.S. in Mechanical Engineering, Stanford University (2017)\nM.S. in Mechanical Engineering, MIT (2019)",
+			"degrees":[
+				{
+					"degree":"M.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2019
+				},
+				{
+					"degree":"B.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"Stanford University",
+					"year":2017
+				}
+			],
 			"research":"Design of a Wearable Robot for Ergonomic Accommodation for Floor Work",
 			"alias":"khahm",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/katie-e1559321078917.jpg",
@@ -362,14 +535,52 @@
 		},
 		{
 			"name":"Hyeonyu Kim",
-			"degrees": "M.S. in Mechanical Engineering, MIT (2014)\nB.S. in Mechanical Engineering, KAIST (2012)\nPh.D. in Mechanical Engineering, MIT (2019)",
+			"degrees":[
+				{
+					"degree":"M.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2014
+				},
+				{
+					"degree":"Ph.D.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2019
+				},
+				{
+					"degree":"B.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"KAIST",
+					"year":2012
+				}
+			],
 			"research":"Effect of Co-stimulation on the performance of 3D artificial muscle tissue",
 			"alias":"hyeonyu",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/5232_386725128106404_1492042263_n-300x300.jpg"
 		},
 		{
 			"name":"Daniel J. Gonzalez",
-			"degrees": "Ph.D. in Mechanical Engineering, MIT (2019)\nS.M. in Mechanical Engineering, MIT (2016)\nS.B. in Engineering (Concentration in Controls, Instrumentation and Robotics), MIT (2014)",
+			"degrees":[
+				{
+					"degree":"S.M.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2016
+				},
+				{
+					"degree":"Ph.D.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2019
+				},
+				{
+					"degree":"S.B.",
+					"subject":"Engineering (Concentration in Controls, Instrumentation and Robotics)",
+					"institution":"MIT",
+					"year":2014
+				}
+			],
 			"research":"Extra Robotic Legs for Augmenting Human Payload and Positioning Capabilities",
 			"alias":"dgonz",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2017/02/dgonz-portrait_close-e1487282798853-300x300.jpg",

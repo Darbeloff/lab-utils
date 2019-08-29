@@ -32,6 +32,8 @@ var jqhxr = $.getJSON(jsonURL, function(data) {
 
 	html = generateHeader('Lab Alumni') + startTable();
 	for (let e=0; e<data.alumni.length; e++) {
+		delete data.alumni[e].degrees;
+		delete data.alumni[e].alias;
 		html += generateRow(e, data.alumni[e], data, true);
 	}
 	html += endTable();

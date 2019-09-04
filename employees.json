@@ -257,22 +257,17 @@
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/09/ctraweek_heashot-300x300.png"
 		},
 		{
-			"name":"Rachel Kwak",
-			"degrees":"Architecture B.S. Candidate",
-			"mentor":"Nicholas S. Selby",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/05/rachelkwak.jpg"
-		},
-		{
 			"name":"Albert Go",
 			"degrees":"Mechanical Engineering B.S. Candidate",
 			"mentor":"Nicholas S. Selby",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/05/albertgo.jpg"
 		},
 		{
-			"name":"Faith Jones",
-			"degrees":"Mechanical Engineering B.S. Candidate",
+			"name":"Sarah Vu",
+			"degrees":"Electrical Engineering and Computer Science B.S. Candidate",
 			"mentor":"Nicholas S. Selby",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/06/faithjones.jpeg"
+			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/09/headshot.jpg",
+			"website":"https://stuff.mit.edu/~sarahvu/"
 		}
 	],
 	"alumni": [

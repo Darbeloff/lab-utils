@@ -247,6 +247,20 @@
 			],
 			"research":"coming soon",
 			"alias":"seiichi"
+		},
+		{
+			"name":"Daisuke Matsuura",
+			"degrees":[
+				{
+					"degree":"Ph.D.",
+					"subject":"Mechanical Engineering",
+					"institution":"Tokyo Institute of Technology",
+					"year":2008
+				}
+			],
+			"research":"Extendable continuum robot arm",
+			"alias":"dmatsuura",
+			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/10/dmatsuura.jpg"
 		}
 	],
 	"urops": [

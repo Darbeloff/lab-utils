@@ -24,27 +24,6 @@
 	],
 	"grad_student_workers": [
 		{
-			"name":"Jacob Guggenheim",
-			"title":"Ph.D. Candidate",
-			"degrees":[
-				{
-					"degree":"M.S.",
-					"subject":"Mechanical Engineering",
-					"institution":"MIT",
-					"year":2016
-				},
-				{
-					"degree":"B.S.",
-					"subject":"Bioengineering",
-					"institution":"University of Illinois Urbana-Champaign",
-					"year":2014
-				}
-			],
-			"research":"Unique Feedback Mechanisms from Wearable Robotics",
-			"alias":"jguggenh",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/10171773_10203871130965603_146512243_n-e1559523597241.jpg"
-		},
-		{
 			"name":"Rachel Hoffman",
 			"title":"Ph.D. Candidate",
 			"degrees":[
@@ -613,6 +592,33 @@
 			"alias":"dgonz",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2017/02/dgonz-portrait_close-e1487282798853-300x300.jpg",
 			"website":"http://dgonz.mit.edu/"
-		}
+		},
+		{
+			"name":"Jacob Guggenheim",
+			"title":"Ph.D. Candidate",
+			"degrees":[
+				{
+					"degree":"Ph.D.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2019
+				},
+				{
+					"degree":"M.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2016
+				},
+				{
+					"degree":"B.S.",
+					"subject":"Bioengineering",
+					"institution":"University of Illinois Urbana-Champaign",
+					"year":2014
+				}
+			],
+			"research":"Unique Feedback Mechanisms from Wearable Robotics",
+			"alias":"jguggenh",
+			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/10171773_10203871130965603_146512243_n-e1559523597241.jpg"
+		},
 	]
 }

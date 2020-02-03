@@ -88,6 +88,27 @@
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/06/Sotiropoulos-Filippos-SM-04-1-e1559579008430.jpg"
 		},
 		{
+			"name":"Jerry Ng",
+			"title":"Ph.D. Candidate",
+			"degrees":[
+				{
+					"degree":"M.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2019
+				},
+				{
+					"degree":"B.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"UC San Diego",
+					"year":2017
+				}
+			],
+			"research":"Dual-Faceted Linearization",
+			"alias":"jerryng",
+			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/jerry-300x300.jpg"
+		},
+		{
 			"name":"Nicholas S. Selby",
 			"title":"Ph.D. Candidate",
 			"degrees":[
@@ -108,27 +129,6 @@
 			"alias":"nselby",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/09/headshot-300x300.jpg",
 			"website":"http://www.mit.edu/~nselby/"
-		},
-		{
-			"name":"Jerry Ng",
-			"title":"Ph.D. Candidate",
-			"degrees":[
-				{
-					"degree":"M.S.",
-					"subject":"Mechanical Engineering",
-					"institution":"MIT",
-					"year":2019
-				},
-				{
-					"degree":"B.S.",
-					"subject":"Mechanical Engineering",
-					"institution":"UC San Diego",
-					"year":2017
-				}
-			],
-			"research":"Dual-Faceted Linearization",
-			"alias":"jerryng",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/jerry-300x300.jpg"
 		},
 		{
 			"name":"Ryan Sandzimier",
@@ -262,24 +262,6 @@
 			"mentor":"Nicholas S. Selby",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/09/headshot.jpg",
 			"website":"https://stuff.mit.edu/~sarahvu/"
-		},
-		{
-			"name":"Kayla Holman",
-			"degrees":"Electrical Engineering and Computer Science B.S. Candidate",
-			"mentor":"Nicholas S. Selby",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/09/IMG_8398.jpg"
-		},
-		{
-			"name":"Denise Chai",
-			"degrees":"Computer Science B.S. Candidate",
-			"mentor":"Nicholas S. Selby",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/09/dchai.jpeg"
-		},
-		{
-			"name":"Shushu Fang",
-			"degrees":"Electrical Engineering and Computer Science B.S. Candidate",
-			"mentor":"Nicholas S. Selby",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/09/image-e1567997821699.png"
 		}
 	],
 	"alumni": [

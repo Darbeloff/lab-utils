@@ -1,168 +1,108 @@
 var jsonURL = 'https://darbeloff.github.io/lab-utils/employees.json';
 var jqhxr = $.getJSON(jsonURL, function(data) {
-	var html = generateHeader('Research Staff') + startTable();
-	for (let e=0; e<data.research_staff.length; e++) {
-		html += generateRow(e, data.research_staff[e], data, false);
-	}
-	html += endTable();
-	document.getElementById('research-staff').innerHTML = html;
+	data.research_staff.forEach(employee => document.getElementById('research-staff').appendChild(generateEmployee(employee, false)));
 
-	html = generateHeader('Graduate Student-Workers') + startTable();
 	gswTitles = ['M.S. Student','Ph.D. Student','Ph.D. Candidate'];
 	data.grad_student_workers.sort((a,b) => gswTitles.indexOf(b.title)-gswTitles.indexOf(a.title));
-	for (let e=0; e<data.grad_student_workers.length; e++) {
-		html += generateRow(e, data.grad_student_workers[e], data, false);
-	}
-	html += endTable();
-	document.getElementById('graduate-student-workers').innerHTML = html;
+	data.grad_student_workers.forEach(employee => document.getElementById('graduate-student-workers').appendChild(generateEmployee(employee, false)));
 
-	html = generateHeader('Visiting Engineers') + startTable();
-	for (let e=0; e<data.visiting_engineers.length; e++) {
-		html += generateRow(e, data.visiting_engineers[e], data, false);
-	}
-	html += endTable();
-	document.getElementById('visiting-engineers').innerHTML = html;
+	data.visiting_engineers.forEach(employee => document.getElementById('visiting-engineers').appendChild(generateEmployee(employee, false)));
 
-	html = generateHeader('Undergraduate Researchers') + startTable();
-	for (let e=0; e<data.urops.length; e++) {
-		html += generateRow(e, data.urops[e], data, true);
-	}
-	html += endTable();
-	document.getElementById('undergraduate-researchers').innerHTML = html;
+	data.urops.forEach(employee => document.getElementById('urops').appendChild(generateEmployee(employee, true)));
 
-	html = generateHeader('Lab Alumni') + startTable();
-	for (let e=0; e<data.alumni.length; e++) {
-		delete data.alumni[e].degrees;
-		delete data.alumni[e].alias;
-		html += generateRow(e, data.alumni[e], data, true);
-	}
-	html += endTable();
-	document.getElementById('lab-alumni').innerHTML = html;
+	data.alumni.forEach(employee => {
+		delete employee.degrees;
+		delete employee.alias;
+		document.getElementById('lab-alumni').appendChild(generateEmployee(employee, true))
+	});
 });
 jqhxr.fail(function() {
 	throw new Error('JSON file not formatted correctly. Go to ' + jsonURL + ' to learn more.')
 });
 
-function generateHeader(title) {
-	return '<h1 style="text-align: center;">' + title + '</h1><hr />'
-}
+function generateEmployee(employee, formatTight=false) {
+	var employeeDiv = document.createElement('DIV');
+	employeeDiv.className = 'employee';
 
-function startTable() {
-	return '\t<table id="tablepress-1" class="tablepress tablepress-id-1">\n' + 
-				 '\t\t<tbody>\n';
-}
+	var img = document.createElement('IMG');
+	img.className = 'aligncenter size-medium';
+	img.src = (employee.hasOwnProperty('image') ? employee.image : 'https://cdn2.iconfinder.com/data/icons/lightly-icons/30/user-480.png');
+	img.alt = 'Image failed to load'
+	employeeDiv.appendChild(img);
 
-function startRow(rowNum) {
-	return '\t\t\t<tr class="row-' + rowNum + '">\n';
-}
-
-function imageCell(imageURL) {
-	return '\t\t\t\t<td class="column-1" style="vertical-align: middle;"><img class="aligncenter size-medium" src="' + imageURL + '" alt="" width="200" /></td>\n'
-}
-
-function startContentCell() {
-	return '\t\t\t\t<td class="column-2" style="vertical-align: middle;">\n';
-}
-
-function endCellAndRow() {
-	return '</td>\n\t\t\t</tr>\n';
-}
-
-function endTable() {
-	return '\t\t</tbody>\n\t</table>'
-}
-
-function generateRow(ind, employee, data, formatTight=false) {
-	var html = startRow(ind);
-
-	// Image
-	if (employee.hasOwnProperty('image')) {
-		html += imageCell(employee.image);
-	} else {
-		html += imageCell('https://cdn2.iconfinder.com/data/icons/lightly-icons/30/user-480.png');
-	}
-
+	var textDiv = document.createElement('DIV');
+	
 	// Name and Title
-	html += startContentCell();
-	html += '\t\t\t\t\t<h2>';
-	if (employee.hasOwnProperty('title')) {
-		html += '<strong>';
-	}
+	var h2 = document.createElement('H2');
+	var name = document.createTextNode(employee.name);
 	if (employee.hasOwnProperty('website')) {
-		html += '<a href="' + employee.website + '">';
-	}
-	html += employee.name;
-	if (employee.hasOwnProperty('website')) {
-		html += '</a>';
+		var a = document.createElement('A');
+		a.href = employee.website;
+		a.appendChild(name);
+		h2.appendChild(a);
+	} else {
+		h2.appendChild(name);
 	}
 	if (employee.hasOwnProperty('title')) {
-		html += '</strong> <em>' + employee.title + '</em>'
+		var em = document.createElement('EM');
+		em.className = 'title';
+		em.appendChild(document.createTextNode(employee.title));
+		h2.appendChild(em);
 	}
-	html += '</h2>';
+	textDiv.appendChild(h2);
 
 	// Degrees
 	if (employee.hasOwnProperty('degrees')) {
-		html += '\t\t\t\t\t';
-		if (formatTight) {
-			html += '<em>';
-		}
-		html += formatDegreeString(employee.degrees);
-		if (formatTight) {
-			html += '</em>';
+		var degrees = employee.degrees;
+		if (Array.isArray(degrees)) {
+			degrees.sort((a,b) => (a.year<b.year) ? 1 : -1);
+			degrees.forEach(deg => {
+				formattedDegree = `${deg.degree} in ${deg.subject}, ${deg.institution} (${deg.year})`;
+				if (formatTight) {
+					var em = document.createElement('EM');
+					em.appendChild(document.createTextNode(formattedDegree));
+					textDiv.appendChild(em);
+				} else {
+					textDiv.appendChild(document.createTextNode(formattedDegree));
+				}
+				textDiv.appendChild(document.createElement('BR'));
+			});
 		} else {
-			html += '<br>'
+			textDiv.innerHTML+= degrees.replace(/\n/g,'<br>');
 		}
-		html += '<br>';
+		textDiv.appendChild(document.createElement('BR'));
+		if (!formatTight) textDiv.appendChild(document.createElement('BR'));
 	}
 
-	// Research Topic and Mentor
+	// Research Topic
+	if (employee.hasOwnProperty('research')) {
+		var strong = document.createElement('STRONG');
+		strong.appendChild(document.createTextNode('Research Topic: '));
+		textDiv.appendChild(strong);
+		textDiv.appendChild(document.createTextNode(employee.research));
+		textDiv.appendChild(document.createElement('BR'));
+		if (!formatTight) textDiv.appendChild(document.createElement('BR'));
+	}
+
+	// Mentor
 	if (employee.hasOwnProperty('mentor')) {
-		var mentor = null;
-		for (let e=0; e<data.grad_student_workers.length; e++) {
-			if (data.grad_student_workers[e].name===employee.mentor) {
-				html += '\t\t\t\t\t<strong>Research Topic:</strong> ' + data.grad_student_workers[e].research + '<br>';
-				if (!formatTight) {
-					html += '<br>';
-				}
-				break;
-			}
-		}
-		html += '\t\t\t\t\t<strong>Research Mentor:</strong> ' + employee.mentor + '<br>';
-	} else if (employee.hasOwnProperty('research')) {
-		html += '\t\t\t\t\t<strong>Research Topic:</strong> ' + employee.research + '<br>';
-		if (!formatTight) {
-			html += '<br>';
-		}
+		var strong = document.createElement('STRONG');
+		strong.appendChild(document.createTextNode('Research Mentor: '));
+		textDiv.appendChild(strong);
+		textDiv.appendChild(document.createTextNode(employee.mentor));
+		textDiv.appendChild(document.createElement('BR'));
+		if (!formatTight) textDiv.appendChild(document.createElement('BR'));
 	}
 
 	// Email
 	if (employee.hasOwnProperty('alias')) {
-		html += '\t\t\t\t\t<strong>Email:</strong> ' + employee.alias +  '@mit.edu<br>';
+		var strong = document.createElement('STRONG');
+		strong.appendChild(document.createTextNode('Email: '));
+		textDiv.appendChild(strong);
+		textDiv.appendChild(document.createTextNode(`${employee.alias}@mit.edu`));
+		textDiv.appendChild(document.createElement('BR'));
 	}
 
-	// End Cell and Row
-	html += endCellAndRow();
-
-	return html;
-}
-
-function formatDegreeString(degrees) {
-	// "degrees" field can be either a string (to be printed literally) or an array of objects.
-	// If it's an array of objects,
-	if (Array.isArray(degrees)) {
-		// Sort the degrees by year.
-		degrees.sort((a,b) => (a.year<b.year) ? 1 : -1);
-
-		// Assemble degrees in formatted strings, one line for each degree.
-		var degStr = '';
-		degrees.forEach(function(deg) {
-			degStr += `${deg.degree} in ${deg.subject}, ${deg.institution} (${deg.year})\n`;
-		});
-
-		// Remove the last new line character.
-		degrees = degStr.substring(0,degStr.length-1);
-	}
-
-	// Replace the newline characters with HTML breaks.
-	return degrees.replace(/\n/g,'<br>');
+	employeeDiv.appendChild(textDiv);
+	return employeeDiv;
 }

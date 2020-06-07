@@ -1,0 +1,36 @@
+.employee {
+	display: flex;
+	justify-content: left;
+	width: 100%;
+	align-items: center;
+}
+
+.employee img {
+	order: 0;
+	width: 200px;
+	height: auto;
+	flex-shrink: 0;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+.employee div {
+	display: inline;
+	order: 1;
+	margin-bottom: 1em;
+}
+.employee h2 {
+	margin-top: 0;
+}
+
+h1 {
+	text-align: center;
+}
+.title {
+	padding-left: 0.5em;
+}
+
+@media only screen and (max-width: 500px) {
+	.employee {
+		flex-wrap: wrap;
+	}
+}

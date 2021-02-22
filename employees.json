@@ -1,26 +1,5 @@
 {
 	"research_staff": [
-		{
-			"name":"Min-Cheol Kim",
-			"title":"Research Scientist",
-			"degrees":[
-				{
-					"degree":"Ph.D.",
-					"subject":"Mechanical Engineering",
-					"institution":"SNU",
-					"year":2005
-				},
-				{
-					"degree":"B.S.",
-					"subject":"Mathematics",
-					"institution":"Univ. of Seoul",
-					"year":2000
-				}
-			],
-			"research":"Cancer cell invasion dynamics in a 3D extracellular matrix network",
-			"alias":"mincheol",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/204db50.jpg"
-		}
 	],
 	"grad_student_workers": [
 		{
@@ -216,21 +195,6 @@
 			"research":"Design and control of industrial cranes to achieve high functionality and intelligence.",
 			"alias":"eisukem",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2020/08/IMG_2351.jpg"
-		},
-								{
-			"name":"Hiofumi Itagaki",
-			"title":"Visiting Engineer",
-			"degrees":[
-				{
-					"degree":"PhD",
-					"subject":"Engineering",
-					"institution":"Tokyo University of Agriculture and Technology",
-					"year":2013
-				}
-			],
-			"research":"Design and control of semi-wearable robots focusing on walking assistance.",
-			"alias":"",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2020/08/Itagaki-e1597919458982.png"
 		}
 	],
 	"urops": [

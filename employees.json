@@ -549,6 +549,12 @@
 			"research":"A Data-Driven Approach to Autonomous Excavation",
 			"alias":"rsandz",
 			"image":"https://i.imgur.com/OsyFvWl.jpg"
+		},
+		{
+			"name":"Vincent Chan",
+			"research":"Fabrication and characterization of optogenetic, multi-strip cardiac muscles",
+			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2021/07/Screen-Shot-2021-07-28-at-5.43.29-PM.jpg",
+			"website":"https://profiles.ucsf.edu/vincent.chan"
 		}
 	]
 }

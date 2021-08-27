@@ -13,6 +13,7 @@ var jqhxr = $.getJSON(jsonURL, function(data) {
 	data.alumni.forEach(employee => {
 		delete employee.degrees;
 		delete employee.alias;
+		delete employee.title;
 		document.getElementById('lab-alumni').appendChild(generateEmployee(employee, true))
 	});
 });

@@ -137,70 +137,6 @@
 	],
 	"alumni": [
 		{
-			"name":"Rachel Hoffman",
-			"title":"Ph.D. Candidate",
-			"degrees":[
-				{
-					"degree":"M.S.",
-					"subject":"Mechanical Engineering",
-					"institution":"MIT",
-					"year":2017
-				},
-				{
-					"degree":"B.S.",
-					"subject":"Mechanical Engineering",
-					"institution":"University of Florida",
-					"year":2015
-				}
-			],
-			"research":"Design and control of wearable robots focusing on enhancing capabilities of disabled persons",
-			"alias":"rachelmh",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/100_20012-e1559543090646.jpg"
-		},
-		{
-			"name":"Filippos E. Sotiropoulos",
-			"title":"Ph.D. Candidate",
-			"degrees":[
-				{
-					"degree":"S.M.",
-					"subject":"Mechanical Engineering",
-					"institution":"MIT",
-					"year":2018
-				},
-				{
-					"degree":"M.Eng.",
-					"subject":"Mechanical Engineering",
-					"institution":"University of Bristol",
-					"year":2016
-				}
-			],
-			"research":"Planning and control for autonomous excavation",
-			"alias":"fes",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/06/Sotiropoulos-Filippos-SM-04-1-e1559579008430.jpg"
-		},
-		{
-			"name":"Nicholas S. Selby",
-			"title":"Ph.D. Candidate",
-			"degrees":[
-				{
-					"degree":"M.S.",
-					"subject":"Mechanical Engineering",
-					"institution":"MIT",
-					"year":2018
-				},
-				{
-					"degree":"B.S.",
-					"subject":"Mechanical Engineering",
-					"institution":"Georgia Tech",
-					"year":2016
-				}
-			],
-			"research":"TeachBot Education System for Workforce Development",
-			"alias":"nselby",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/09/headshot-300x300.jpg",
-			"website":"http://www.mit.edu/~nselby/"
-		},
-		{
 			"name":"Yuta Kamoshita",
 			"degrees":[
 				{
@@ -555,6 +491,70 @@
 			"research":"Fabrication and characterization of optogenetic, multi-strip cardiac muscles",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2021/07/Screen-Shot-2021-07-28-at-5.43.29-PM.jpg",
 			"website":"https://profiles.ucsf.edu/vincent.chan"
+		},
+		{
+			"name":"Rachel Hoffman",
+			"title":"Ph.D. Candidate",
+			"degrees":[
+				{
+					"degree":"M.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2017
+				},
+				{
+					"degree":"B.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"University of Florida",
+					"year":2015
+				}
+			],
+			"research":"Design and control of wearable robots focusing on enhancing capabilities of disabled persons",
+			"alias":"rachelmh",
+			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/100_20012-e1559543090646.jpg"
+		},
+		{
+			"name":"Filippos E. Sotiropoulos",
+			"title":"Ph.D. Candidate",
+			"degrees":[
+				{
+					"degree":"S.M.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2018
+				},
+				{
+					"degree":"M.Eng.",
+					"subject":"Mechanical Engineering",
+					"institution":"University of Bristol",
+					"year":2016
+				}
+			],
+			"research":"Planning and control for autonomous excavation",
+			"alias":"fes",
+			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/06/Sotiropoulos-Filippos-SM-04-1-e1559579008430.jpg"
+		},
+		{
+			"name":"Nicholas S. Selby",
+			"title":"Ph.D. Candidate",
+			"degrees":[
+				{
+					"degree":"M.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2018
+				},
+				{
+					"degree":"B.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"Georgia Tech",
+					"year":2016
+				}
+			],
+			"research":"TeachBot Education System for Workforce Development",
+			"alias":"nselby",
+			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/09/headshot-300x300.jpg",
+			"website":"http://www.mit.edu/~nselby/"
 		}
 	]
 }

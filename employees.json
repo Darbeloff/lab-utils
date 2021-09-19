@@ -110,6 +110,21 @@
 			"research":"Expandable robot inspired by plant growth",
 			"alias":"emilyk",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/08/ProfessionalHeadshot_Emily-2.jpg"
+		},
+		{
+			"name":"Roberto Bolli Jr.",
+			"title":"M.S. Student",
+			"degrees":[
+				{
+					"degree":"B.S.",
+					"subject":"Mechanical Engineering, Computational Biology",
+					"institution":"MIT",
+					"year":2021
+				}
+			],
+			"research":"Supernumerary robotic limbs for assisting hemiplegic patients",
+			"alias":"rbolli",
+			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2021/09/Roberto-Bolli-headshot-1x1-aspect-ratio.png"
 		}
 	],
 	"visiting_engineers": [

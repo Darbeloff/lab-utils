@@ -112,6 +112,21 @@
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/08/ProfessionalHeadshot_Emily-2.jpg"
 		},
 		{
+			"name":"Erik Ballesteros",
+			"title":"M.S. Student",
+			"degrees":[
+				{
+					"degree":"B.S.",
+					"subject":"Aerospace Engineering",
+					"institution":"The University of Texas at Austin",
+					"year":2019
+				}
+			],
+			"research":"NASA xEMU/SuperLIMBs Integration",
+			"alias":"balleste",
+			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2021/09/Erik_Ballesteros_Headshot_1-1-1.jpg"
+		},
+		{
 			"name":"Roberto Bolli Jr.",
 			"title":"M.S. Student",
 			"degrees":[

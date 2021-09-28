@@ -140,6 +140,21 @@
 			"research":"Supernumerary robotic limbs for assisting hemiplegic patients",
 			"alias":"rbolli",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2021/09/Roberto-Bolli-headshot-1x1-aspect-ratio.png"
+		},
+		{
+			"name":"Jadal Williams",
+			"title":"M.S. Student",
+			"degrees":[
+				{
+					"degree":"B.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"Stanford University",
+					"year":2021
+				}
+			],
+			"research":"Manufacturing Robots & Computer Vision",
+			"alias":"jadal",
+			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2021/09/Jadal_Williams_Profile_Photo.jpg"
 		}
 	],
 	"visiting_engineers": [

@@ -155,6 +155,27 @@
 			"research":"Manufacturing Robots & Computer Vision",
 			"alias":"jadal",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2021/09/Jadal_Williams_Profile_Photo.jpg"
+		},
+		{
+			"name":"Kentaro Barhydt",
+			"title":"Ph.D. Student",
+			"degrees":[
+				{
+					"degree":"M.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"Tufts University",
+					"year":2020
+				},
+				{
+					"degree":"B.S.M.E",
+					"subject":"Mechanical Engineering",
+					"institution":"Union College",
+					"year":2018
+				}
+			],
+			"research":"Design and Control of Supernumerary Robotic Limbs",
+			"alias":"kbarhydt",
+			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2021/09/headshot_20200103.jpg"
 		}
 	],
 	"visiting_engineers": [

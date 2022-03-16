@@ -3,27 +3,6 @@
 	],
 	"grad_student_workers": [
 		{
-			"name":"Phillip Daniel",
-			"title":"Ph.D. Candidate",
-			"degrees":[
-				{
-					"degree":"S.M.",
-					"subject":"Mechanical Engineering",
-					"institution":"MIT",
-					"year":2015
-				},
-				{
-					"degree":"S.B.",
-					"subject":"Engineering",
-					"institution":"MIT",
-					"year":2013
-				}
-			],
-			"research":"Extra Robotic Arms for Enhancing Technicians in Manufacturing Settings",
-			"alias":"docphil",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/Phillip-Daniel-300x300.jpg"
-		},
-		{
 			"name":"Jerry Ng",
 			"title":"Ph.D. Candidate",
 			"degrees":[
@@ -633,6 +612,27 @@
 			"alias":"nselby",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/09/headshot-300x300.jpg",
 			"website":"https://rupumped.github.io"
+		},
+		{
+			"name":"Phillip Daniel",
+			"title":"Ph.D. Candidate",
+			"degrees":[
+				{
+					"degree":"S.M.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2015
+				},
+				{
+					"degree":"S.B.",
+					"subject":"Engineering",
+					"institution":"MIT",
+					"year":2013
+				}
+			],
+			"research":"Extra Robotic Arms for Enhancing Technicians in Manufacturing Settings",
+			"alias":"docphil",
+			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/Phillip-Daniel-300x300.jpg"
 		}
 	]
 }

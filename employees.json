@@ -191,6 +191,21 @@
 		}
 	],
 	"urops": [
+		{
+			"name":"Quinn Bowers",
+			"title":"Undergraduate Researcher",
+			"degrees":[
+				{
+					"degree":"B.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2023
+				}
+			],
+			"research":"Manufacturing Robotics for Heavy Industries",
+			"alias":"qbowers",
+			"image":"https://darbelofflab.mit.edu/wp-content/uploads/2022/05/qbowers_headshot.jpg"
+		}
 	],
 	"alumni": [
 		{
@@ -633,21 +648,6 @@
 			"research":"Extra Robotic Arms for Enhancing Technicians in Manufacturing Settings",
 			"alias":"docphil",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/Phillip-Daniel-300x300.jpg"
-		},
-		{
-			"name":"Quinn Bowers",
-			"title":"Undergraduate Researcher",
-			"degrees":[
-				{
-					"degree":"B.S.",
-					"subject":"Mechanical Engineering",
-					"institution":"MIT",
-					"year":2023
-				}
-			],
-			"research":"Manufacturing Robotics for Heavy Industries",
-			"alias":"qbowers",
-			"image":"https://darbelofflab.mit.edu/wp-content/uploads/2022/05/qbowers_headshot.jpg"
 		}
 	]
 }
